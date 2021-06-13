@@ -1,0 +1,251 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  background-image: url('blog.jpg');
+  direction: ltr;
+  color: white;
+  
+}
+header {
+  padding-top: 40px;
+  padding-left:350px;
+  padding-Right:350px;
+  text-align: center;
+  font-size: 50px;
+}
+#Header{
+	background: rgb(0, 0, 0,0.5); }
+/*----------navigation bar code----------*/
+nav {
+  overflow: hidden;
+  background-color: #e8d6d1;
+  opacity: 0.93;
+  align-items: center;
+  padding-top: 2%; 
+  padding-bottom: 2%;
+}
+
+/* Style navigation links */
+nav a {
+  float: left;
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 10px 15px;
+  text-decoration: none;
+  font-weight:bold;
+  font-size: 30px;
+}
+
+  /* Change color on hover عشان اذا اشرنا عليه يتغير لونو*/
+nav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+/*عشان ينزل معايا الشريط*/
+.sticky {position: fixed;top: 0;width: 100%;}
+.sticky + .Left + .Right {padding-top: 60px;}
+
+
+/* style for contact*/
+#contact{
+
+overflow: hidden;
+background-color: #8b8988;
+opacity: 0.93;
+align-items: center;
+padding-top: 1%; 
+padding-bottom: 1%;
+margin-top: 70px;
+margin-right: 20%;
+}
+
+
+/*style for footer*/
+/*----------Footer----------*/
+footer{
+  clear: both;
+  width:100%;
+  height:50px;
+  padding: 20px;
+  text-align: center;
+  background: #8b8988;
+  opacity: 0.9;
+    margin-top:10px;
+}
+
+footer a {
+  float: left;
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 20px 20px;
+  text-decoration: none;
+  font-weight:bold;
+  font-size: 25px;
+  border-right:10px;
+}
+footer a:hover {
+  background-color: #a5a5a5;
+  color: black;
+}
+/* Full-width input fields */
+input[type=text], input[type=password] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+/* Set a style for all buttons */
+button {
+  background-color: #e8d6d1;
+  color:black;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  font-weight:bold;
+  font-size:20px;
+}
+
+button:hover {
+  opacity: 0.8;
+}
+
+/* Extra styles for the cancel button */
+.cancelbtn {
+  width: auto;
+  padding: 10px 18px;
+  background-color: #f44336;
+}
+
+/* Center the image and position the close button */
+.imgcontainer {
+  text-align: center;
+  margin: 24px 0 12px 0;
+  position: relative;
+}
+
+img.avatar {
+  width: 40%;
+  border-radius: 50%;
+}
+
+.container {
+  padding: 16px;
+}
+
+span.psw {
+  float: right;
+  padding-top: 16px;
+}
+
+/* The Modal (background) */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+  padding-top: 60px;
+}
+
+/* Modal Content/Box */
+.modal-content {
+  background-color: #fefefe;
+  margin: 5% auto 15% auto; /* 5% from the top, 15% from the bottom and centered */
+  border: 1px solid #888;
+  width: 80%; /* Could be more or less, depending on screen size */
+}
+
+/* The Close Button (x) */
+.close {
+  position: absolute;
+  right: 25px;
+  top: 0;
+  color: #000;
+  font-size: 35px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: red;
+  cursor: pointer;
+}
+
+/* Add Zoom Animation */
+.animate {
+  -webkit-animation: animatezoom 0.6s;
+  animation: animatezoom 0.6s
+}
+
+@-webkit-keyframes animatezoom {
+  from {-webkit-transform: scale(0)} 
+  to {-webkit-transform: scale(1)}
+}
+  
+@keyframes animatezoom {
+  from {transform: scale(0)} 
+  to {transform: scale(1)}
+}
+
+/* Change styles for span and cancel button on extra small screens */
+@media screen and (max-width: 300px) {
+  span.psw {
+     display: block;
+     float: none;
+  }
+  .cancelbtn {
+     width: 100%;
+  }
+}
+/*----------Content code----------*/
+
+
+h2{
+	font-size: 30px;
+	font-weight: bold;
+}
+h1{color:rgb(235, 183, 179);}
+
+/* column (Article)*/
+article{
+  float: right;
+  width: 40%;
+  background: rgb(118, 113, 113,0.93);
+  padding: 50px 20px 40px 30px;
+  font-size: 30px;
+	margin-bottom: 30px;
+}
+/*body about Us*/
+.aboutus{
+  background: rgb(118, 113, 113,0.93);
+  padding: 30px 20px 40px 40px;
+  font-size: 30px;
+	margin-bottom: 50px;
+  margin-top: 50px;
+  margin-right: 50px;
+  margin-left: 50px;
+}
+/* column (Aside)*/
+aside{
+float: left;
+  width: 40%;
+  background: rgb(118, 113, 113,0.93);
+  padding: 20px;
+}
+
+
+.Content{
+	padding:20px;
+}
